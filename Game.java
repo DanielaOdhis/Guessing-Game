@@ -11,7 +11,7 @@ import javax.swing.JLabel;
 import javax.swing.JTextField;
 
 
-public class MyFrame extends JFrame implements ActionListener{
+public class Game extends JFrame implements ActionListener{
 	
 	static int guess1;
 	JTextField textField;
@@ -31,7 +31,7 @@ public class MyFrame extends JFrame implements ActionListener{
 	int j;
 	
 	
-	MyFrame(){
+	Game(){
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		this.setLayout(new FlowLayout());
 		frameObj = new JFrame(); 
