@@ -38,13 +38,9 @@ public class Game extends JFrame implements ActionListener{
 		
 		textField = new JTextField();
 		textField.setPreferredSize(new Dimension(40,40));
-		textField.setBackground(Color.yellow);
-		
-		
-		
+		textField.setBackground(Color.green);
 		
 		//text2 = new JTextField();
-		
 		
 		btn = new JButton("submit");
 		//MyFrame f = new MyFrame();
@@ -57,7 +53,7 @@ public class Game extends JFrame implements ActionListener{
 				}
 				if(j==1) {
 					s = textField.getText();
-					History2.setPreferredSize(new Dimension(200,30));
+					History2.setPreferredSize(new Dimension(20,30));
 					History2.setEditable(false);
 					History2.setBackground(Color.green);
 					
@@ -69,7 +65,7 @@ public class Game extends JFrame implements ActionListener{
 					s = textField.getText();
 					History3.setPreferredSize(new Dimension(200,30));
 					History3.setEditable(false);
-					History3.setBackground(Color.pink);
+					History3.setBackground(Color.green);
 					
 					History3.setText("Your 3rd guess is :" +s);
 					frameObj.add(History3);
